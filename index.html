@@ -117,16 +117,19 @@
 
     <main id="main">
       <!-- Hero Section -->
-      <section id="Hero">
-        <h1>
+      <section class="hero" id="Hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <button type="button">How it's made</button>
-        <a href=""
+        <button class="btn btn-filled" type="button">Buy now</button>
+        <button class="btn btn-outlined primary" type="button">
+          How it's made
+        </button>
+        <a class="hero-link" href="#benefits"
           >scroll down
           <img
+            class="hero-link-icon"
             src="./images/arrow-down.svg"
             alt="Scroll Down"
             width="22"
@@ -136,21 +139,21 @@
       </section>
 
       <!-- Benefits Section -->
-      <section id="Benefits">
+      <section class="benefits" id="benefits">
         <h2>Our Benefits</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Unsurpassed taste</h3>
+            <p class="benefits-desc">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Affordable price</h3>
+            <p class="benefits-desc">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -158,9 +161,9 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Own production</h3>
+            <p class="benefits-desc">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -169,102 +172,118 @@
           </li>
         </ul>
       </section>
+
       <!-- Ingredients Section -->
-      <section id="Ingredients">
-        <h2>Our Ingredients</h2>
-        <ul>
-          <li>
+      <section class="ingredients section" id="Ingredients">
+        <h2 class="ingredients-title section-title">
+          It all adds up to one exceptional
+          <span class="accent">taste</span> sensation
+        </h2>
+        <ul class="ingredients-list">
+          <li class="ingredients-item">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-1.png"
               width="212"
               height="160"
               alt="milk chocolate"
             />
-            <h3>MILK CHOCOLATE</h3>
+            <h3 class="ingredients-caption">MILK CHOCOLATE</h3>
           </li>
-          <li>
+          <li class="ingredients-list">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-2.png"
               width="212"
               height="160"
               alt="milk"
             />
-            <h3>MILK</h3>
+            <h3 class="ingredients-caption">MILK</h3>
           </li>
-          <li>
+          <li class="ingredients-list">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-3.png"
               width="212"
               height="160"
               alt="nuts"
             />
-            <h3>NUTS</h3>
+            <h3 class="ingredients-caption">NUTS</h3>
           </li>
-          <li>
+          <li class="ingredients-list">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-4.png"
               width="212"
               height="160"
               alt="semi-sweet chocolate"
             />
-            <h3>SEMI-SWEET CHOCOLATE</h3>
+            <h3 class="ingredients-caption">SEMI-SWEET CHOCOLATE</h3>
           </li>
-          <li>
+          <li class="ingredients-list">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-5.png"
               width="212"
               height="160"
               alt="cacao"
             />
-            <h3>CACAO</h3>
+            <h3 class="ingredients-caption">CACAO</h3>
           </li>
-          <li>
+          <li class="ingredients-list">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-6.png"
               width="212"
               height="160"
               alt="rapsberry"
             />
-            <h3>RAPSBERRY</h3>
+            <h3 class="ingredients-caption">RAPSBERRY</h3>
           </li>
-          <li>
+          <li class="ingredients-list">
             <img
+              class="ingredients-ill"
               src="./images/ingredients/img-7.png"
               width="212"
               height="160"
               alt="coconut oil"
             />
-            <h3>COCONUT OIL</h3>
+            <h3 class="ingredients-caption">COCONUT OIL</h3>
           </li>
         </ul>
       </section>
 
       <!--Made Section-->
-      <section id="Made">
-        <h2>How it's made?</h2>
+      <section class="made section" id="Made">
+        <h2 class="made-title section-title">
+          How it's <span class="accent">made</span>?
+        </h2>
         <img
+          class="made-ill"
           src="./images/how-made/image.jpg"
           alt="illustration"
           width="600"
           height="400"
         />
-        <h3>
+        <h3 class="made-caption">
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
-        <ol>
-          <li>
+        <ol class="made-list">
+          <li class="made-item">
             At the same time, prepare a water bath. Melt the butter on it.
           </li>
-          <li>
+          <li class="made-item">
             "Mix" the milk mixture and already liquid butter. Mix thoroughly
             with a silicone spatula so that the mass becomes uniform and silky.
           </li>
-          <li>Heat the mixture over low heat, letting it barely boil.</li>
-          <li>
+          <li class="made-item">
+            Heat the mixture over low heat, letting it barely boil.
+          </li>
+          <li class="made-item">
             Pour the chocolate into special containers (can be replaced with ice
             molds). Allow to cool and harden.
           </li>
-          <li>
+          <li class="made-item">
             Heat the milk in a saucepan without bringing it to a boil. Add sugar
             and cocoa powder.
           </li>
@@ -272,129 +291,145 @@
       </section>
 
       <!--Products Section-->
-      <section id="Products">
-        <h2>Our products</h2>
-        <ul>
-          <li>
+      <section class="products section" id="Products">
+        <h2 class="products-title section-title">
+          Our <span class="accent">products</span>
+        </h2>
+        <ul class="products-list">
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-1.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Orange</h3>
-            <p>Dark Chocolate</p>
-            <p>45 UAH</p>
+            <h3 class="products-name">Orange</h3>
+            <p class="products-type">Dark Chocolate</p>
+            <p class="products-price">45 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-2.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Apple & Cranberry</h3>
-            <p>Milk Chocolate</p>
-            <p>50 UAH</p>
+            <h3 class="products-name">Apple & Cranberry</h3>
+            <p class="products-type">Milk Chocolate</p>
+            <p class="products-price">50 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-3.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Lime & Sea Salt</h3>
-            <p>Dark Chocolate</p>
-            <p>66 UAH</p>
+            <h3 class="products-name">Lime & Sea Salt</h3>
+            <p class="products-type">daDark Chocolate</p>
+            <p class="products-price">66 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-4.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Pineapple</h3>
-            <p>Dark Chocolate</p>
-            <p>54 UAH</p>
+            <h3 class="products-name">Pineapple</h3>
+            <p class="products-type">Dark Chocolate</p>
+            <p class="products-price">54 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-5.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Classic Milk</h3>
-            <p>Milk Chocolate</p>
-            <p>45 UAH</p>
+            <h3 class="products-name">Classic Milk</h3>
+            <p class="products-type">Milk Chocolate</p>
+            <p class="products-price">45 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-6.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Honey</h3>
-            <p>Milk Chocolate</p>
-            <p>50 UAH</p>
+            <h3 class="products-name">Honey</h3>
+            <p class="products-type">Milk Chocolate</p>
+            <p class="products-price">50 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-7.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Roasted Fruits</h3>
-            <p>Dark Chocolate</p>
-            <p>66 UAH</p>
+            <h3 class="products-name">Roasted Fruits</h3>
+            <p class="products-type">Dark Chocolate</p>
+            <p class="products-price">66 UAH</p>
           </li>
-          <li>
+          <li class="products-item">
             <img
+              class="products-pic"
               src="./images/products/img-8.jpg"
               alt=""
               width="230"
               height="201"
             />
-            <h3>Classic White</h3>
-            <p>White Chocolate</p>
-            <p>54 UAH</p>
+            <h3 class="products-name">Classic White</h3>
+            <p class="products-type">White Chocolate</p>
+            <p class="products-price">54 UAH</p>
           </li>
         </ul>
       </section>
+
       <!-- Best Sellers Section -->
-      <section id="bestproduct">
-        <h2>Top sellers</h2>
-        <ul>
-          <li>
+      <section class="bestsellers section" id="bestsellets">
+        <h2 class="bestsellers-title section-title">
+          <span class="accent">Top</span> sellers
+        </h2>
+        <ul class="bestsellers-list">
+          <li class="bestsellers-item">
             <img
+              class="bestsellers-ill"
               src="./images/top-sellers/ill-1.jpg"
               alt=""
               width="368"
               height="464"
             />
-            <h3>CHOCOLATE WITH NUTS</h3>
+            <h3 class="bestsellers-caption">CHOCOLATE WITH NUTS</h3>
           </li>
           <li>
             <img
+              class="bestsellers-ill"
               src="./images/top-sellers/ill-2.jpg"
               alt=""
               width="368"
               height="464"
             />
-            <h3>CHOCOLATE WITH FRUITS</h3>
+            <h3 class="bestsellers-caption">CHOCOLATE WITH FRUITS</h3>
           </li>
           <li>
             <img
+              class="bestsellers-ill"
               src="./images/top-sellers/ill-3.jpg"
               alt=""
               width="368"
               height="464"
             />
-            <h3>DARK CHOCOLATE</h3>
+            <h3 class="bestsellers-caption">DARK CHOCOLATE</h3>
           </li>
         </ul>
       </section>
@@ -445,7 +480,9 @@
             </p>
           </li>
         </ul>
-        <button type="button">Leave a review</button>
+        <button btn="btn btn-outlined secondary" type="button">
+          Leave a review
+        </button>
       </section>
     </main>
 
