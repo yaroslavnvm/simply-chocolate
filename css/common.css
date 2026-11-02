@@ -150,6 +150,8 @@ img {
   color: #fd9222;
 }
 .secondary {
+  display:block;
+  margin: 0 auto;
   border-color: #fd9222;
   color: #111;
 }

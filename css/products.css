@@ -3,13 +3,24 @@
 .products-title {
 }
 .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  row-gap: 24px;
 }
 .products-item {
+  width: calc((100% - 18px * 3) / 4);
   background-color: #fff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 16px;
+  padding-block: 32px;
+padding-inline: 20px;
 }
 .products-pic {
+  margin-bottom: 8px;
 }
 .products-name {
+  margin-bottom: 2px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33333;
@@ -17,6 +28,7 @@
   text-transform: uppercase;
 }
 .products-type {
+  margin-bottom: 18px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -25,6 +37,11 @@
   color: rgba(17, 17, 17, 0.7);
 }
 .products-price {
+  width:fit-content;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  padding: 8px 20px;
   font-weight: 600;
   background-color: #fafafa;
+  margin: 0 auto;
 }

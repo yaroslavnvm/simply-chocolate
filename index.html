@@ -201,7 +201,7 @@
             />
             <h3 class="ingredients-caption">MILK CHOCOLATE</h3>
           </li>
-          <li class="ingredients-list">
+          <li class="ingredients-item">
             <img
               class="ingredients-ill"
               src="./images/ingredients/img-2.png"
@@ -211,7 +211,7 @@
             />
             <h3 class="ingredients-caption">MILK</h3>
           </li>
-          <li class="ingredients-list">
+          <li class="ingredients-item">
             <img
               class="ingredients-ill"
               src="./images/ingredients/img-3.png"
@@ -221,7 +221,7 @@
             />
             <h3 class="ingredients-caption">NUTS</h3>
           </li>
-          <li class="ingredients-list">
+          <li class="ingredients-item">
             <img
               class="ingredients-ill"
               src="./images/ingredients/img-4.png"
@@ -231,7 +231,7 @@
             />
             <h3 class="ingredients-caption">SEMI-SWEET CHOCOLATE</h3>
           </li>
-          <li class="ingredients-list">
+          <li class="ingredients-item">
             <img
               class="ingredients-ill"
               src="./images/ingredients/img-5.png"
@@ -241,7 +241,7 @@
             />
             <h3 class="ingredients-caption">CACAO</h3>
           </li>
-          <li class="ingredients-list">
+          <li class="ingredients-item">
             <img
               class="ingredients-ill"
               src="./images/ingredients/img-6.png"
@@ -251,7 +251,7 @@
             />
             <h3 class="ingredients-caption">RAPSBERRY</h3>
           </li>
-          <li class="ingredients-list">
+          <li class="ingredients-item ">
             <img
               class="ingredients-ill"
               src="./images/ingredients/img-7.png"
@@ -271,6 +271,8 @@
         <h2 class="made-title section-title">
           How it's <span class="accent">made</span>?
         </h2>
+        <div class="made-wrapper">
+          <div class="made-left-side">
         <img
           class="made-ill"
           src="./images/how-made/image.jpg"
@@ -278,8 +280,10 @@
           width="600"
           height="400"
         />
+        </div>
+        <div class="made-right-side">
         <h3 class="made-caption">
-          Try our chocolates today and discover the perfect balance of flavor
+          Try our chocolates today and discover&nbsp;the perfect balance of flavor
         </h3>
         <ol class="made-list">
           <li class="made-item">
@@ -301,6 +305,8 @@
             and cocoa powder.
           </li>
         </ol>
+        </div>
+      </div>
         </div>
       </section>
 
@@ -513,58 +519,61 @@
 
     <footer class="footer" id="footer">
       <div class="container"> 
-      <p class="footer-slogan"><span class="accent">Chocolate</span> a delicious cure for a bad day</p>
-      <p class="footer-caption">Social Networks</p>
-      <ul class="socials">
-          <li class="socials-item">
-            <a
-              class="socials-item-link"
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                class="socials-icon"
-                src="./images/facebook.svg"
-                alt="Facebook"
-                width="24"
-                height="24"
-              />
-            </a>
-          </li>
-          <li class="socials-item">
-            <a
-              class="socials-item-link"
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                class="socials-icon"
-                src="./images/instagram.svg"
-                alt="Instagram"
-                width="24"
-                height="24"
-              />
-            </a>
-          </li>
-          <li class="socials-item">
-            <a
-              class="socials-item-link"
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                class="socials-icon"
-                src="./images/twitter.svg"
-                alt="Twitter"
-                width="24"
-                height="24"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="footer-top">
+          <p class="footer-slogan"><span class="accent">Chocolate</span> a delicious cure for a bad day</p>
+      <div class="footer-wrapper">
+        <p class="footer-caption">Social Networks</p>
+        <ul class="socials">
+            <li class="socials-item">
+              <a
+                class="socials-item-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="socials-icon"
+                  src="./images/facebook.svg"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-item-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="socials-icon"
+                  src="./images/instagram.svg"
+                  alt="Instagram"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-item-link"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  class="socials-icon"
+                  src="./images/twitter.svg"
+                  alt="Twitter"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+          </ul>
+      </div>
       <address class="contacts">
         <p class="footer-caption">Contact Us</p>
         <ul class="contacts-list">
@@ -576,7 +585,9 @@
           </li>
         </ul>
       </address>
+      </div>
 
+      <div class="footer-bottom">
       <ul class="footer-menu">
         <li class="footer-menu-item">
           <a class="footer-menu-link" href="#header">Home</a>
@@ -588,6 +599,7 @@
           <a class="footer-menu-link" href="#Reviews">Chocolate is loved</a>
         </li>
       </ul>
+      </div>
       </div>  
     </footer>
   </body>

@@ -3,11 +3,16 @@
 .bestsellers-title {
 }
 .bestsellers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 .bestsellers-item {
+  width: calc((100% - 16px * 2) / 3);
   background-color: #fff;
 }
-.bestsellets-ill {
+.bestsellers-ill {
+  border-radius: 16px 16px 0 0;
 }
 .bestsellers-caption {
   font-weight: 600;
@@ -16,4 +21,10 @@
   text-align: center;
   text-transform: uppercase;
   color: #111;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  border-left: 1px solid rgba(17, 17, 17, 0.1);
+  border-right: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 0 0 15px 15px;
+  padding: 28px;
+  background: #fff;
 }
