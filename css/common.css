@@ -73,9 +73,6 @@ img {
   max-width: 1168px;
   padding: 0 16px;
   margin: 0 auto;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 .accent {
   color: #fd9222;
