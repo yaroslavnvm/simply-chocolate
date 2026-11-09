@@ -40,4 +40,18 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  display: flex;
+  gap: 8px;
+}
+
+.made-item::before {
+  content: '';
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 5px;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded ;
+  display: block;
 }

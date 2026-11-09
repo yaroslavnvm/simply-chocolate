@@ -115,6 +115,12 @@ img {
   border: 1px solid rgba(253, 146, 34, 0.1);
 }
 .socials-icon {
+  color: #111;
+}
+
+.socials-item-link:hover .socials-icon,
+.socials-item-link:focus .socials-icon {
+  color: #fd9222;
 }
 
 /* Button */

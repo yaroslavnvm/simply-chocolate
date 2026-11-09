@@ -18,12 +18,26 @@
 .main-nav-item {
 }
 .main-nav-link {
+  position: relative;
   display: block;
   padding: 11px 0;
   font-weight: 500;
 }
 
 .main-nav-link:hover,
-.main-nav-link:focus {
+.main-nav-link:focus,
+.main-nav-link.current {
   color: #fd9222;
+}
+
+.main-nav-link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  background: #fd9222;
 }

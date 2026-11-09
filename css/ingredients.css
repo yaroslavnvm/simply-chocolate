@@ -17,6 +17,7 @@
   min-width: 260px;
   max-width: 260px; 
  width: calc((100% - 32px * 3) / 4);
+ position: relative;
 }
 
 .ingredients-item:nth-child(2n) {
@@ -41,4 +42,20 @@
    font-size: inherit;
    font-weight: 600;
    text-transform: uppercase;
+}
+
+.ingdredients-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-top: 14px;
+  margin-right: 14px;
+}
+.ingredients-arrow {
 }
