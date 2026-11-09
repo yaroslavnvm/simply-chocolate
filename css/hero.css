@@ -30,6 +30,8 @@
   letter-spacing: -0.02em;
   color: #fff;
   margin-left: auto;
+  transition: 300ms ease-out;
+  transition-property: color;
 }
 .hero-link:hover,
 .hero-link:focus {
@@ -37,6 +39,8 @@
 }
 .hero-link-icon {
   color: #fd9222;
+   transition: 300ms ease-out;
+  transition-property: color;
 }
 
 .hero-link:hover .hero-link-icon,
@@ -45,6 +49,8 @@
 }
 
 .hero-link-circle {
+   transition: 300ms ease-out;
+  transition-property: background-color;
 display:flex;
 align-items: center;
 justify-content: center;

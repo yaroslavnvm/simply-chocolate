@@ -108,14 +108,18 @@ img {
   height: 100%;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 10px;
+  transition: 300ms ease-out;
+  transition-property: border-color;
 }
 
 .socials-item-link:hover,
 .socials-item-link:focus {
-  border: 1px solid rgba(253, 146, 34, 0.1);
+  border-color: rgba(253, 146, 34, 0.1);
 }
 .socials-icon {
   color: #111;
+  transition: 300ms ease-out;
+  transition-property: color;
 }
 
 .socials-item-link:hover .socials-icon,
@@ -131,6 +135,8 @@ img {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 100px;
+  transition: 300ms ease-out;
+  transition-property: color, background-color, border-color;
 }
 .btn-filled {
   background-color: #fd9222;

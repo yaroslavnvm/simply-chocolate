@@ -29,6 +29,8 @@
 }
 .contacts-link {
     color: #fff;
+     transition: 300ms ease-out;
+     transition-property: color;
 }
 
 .contacts-link:hover,
@@ -39,6 +41,11 @@
 .footer-menu-link:hover,
 .footer-menu-link:focus {
     color: #fd9222
+}
+
+.footer-menu-link {
+     transition: 300ms ease-out;
+     transition-property: color;
 }
 
 
@@ -71,4 +78,12 @@
 .footer-wrapper {
     margin-left: auto;
     margin-right: 90px;
+}
+
+.socials-light .socials-icon {
+    color: #fff;
+}
+
+.socials-light .socials-icon {
+    border: rgba(255, 255, 255, 0.1);
 }
