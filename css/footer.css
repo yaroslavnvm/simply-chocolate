@@ -72,6 +72,8 @@
 
 .footer-bottom {
     padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -86,4 +88,31 @@
 
 .socials-light .socials-icon {
     border: rgba(255, 255, 255, 0.1);
+}
+
+.footer-form {
+display: flex;
+gap: 8px;
+}
+
+.footer-form-input {
+    border: 1.50px solid rgba(255, 255, 255, 0.1);
+border-radius: 30px;
+padding-block: 13px;
+padding-inline: 24px;
+width: 314px;
+height: 46px;
+background-color: transparent;
+color: #fff;
+outline: transparent;
+transition: 300ms ease-out;
+transition-property: border-color;
+}
+
+.footer-form-input:focus {
+    border-color: #fd9222;
+}
+
+.footer-form-input::placeholder {
+    color: #fff;
 }
