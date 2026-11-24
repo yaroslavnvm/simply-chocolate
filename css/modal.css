@@ -139,16 +139,52 @@ pointer-events: none;
     color: rgba(17, 17, 17, 0.4);
 }
 
-.modal-form-apply {  
+.modal-form-box {  
     margin-bottom: 40px;
 }
 
 .modal-form-policy {
     color: rgba(17, 17, 17, 0.7);
+    
 }
 .modal-form-checkbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right:  12px;
+    border-radius: 6px;
+    border: 1px solid rgba(17, 17, 17, 0.14); 
+    transition: 300ms ease-out;
+    transition-property: border-color, background-color;
+
+    cursor: pointer;
 }
+
+.checkbox:focus + .modal-form-policy > .modal-form-checkbox  {
+   outline: auto;
+   outline-offset: 1px;
+}
+
+.checkbox:checked + .modal-form-policy > .modal-form-checkbox {
+    border-color: transparent;
+    background-color: #fd9222;
+
+}
+
 .modal-form-checkicon {
+    color: #fafafa;
+    opacity: 0;
+
+    transition: 300ms ease-out;
+    transition-property: opacity, color;
+
+}
+
+.checkbox:checked + .modal-form-policy > .modal-form-checkbox .modal-form-checkicon {
+    color: #fafafa;
+    opacity: 1;
 }
 .modal-form-privacy-link {
     color: #fd9222;
