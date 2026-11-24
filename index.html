@@ -670,9 +670,12 @@
         <div class="modal-form-field">
           <label class="modal-lable" for="user_name">Name</label>
           <div class="modal-input-icon">
-            <input class="modal-input" type="text" id="user-name" name="user_name">
+            <input class="modal-input" type="text" id="user-name" name="user_name" required minlength="2" pattern="^[a-zA-Z]+\s[a-zA-Z]+$" title="Need ur name and surname with space beetween.">
             <svg class="modal-icon" width="24" height="24">
               <use href="./images/icons.svg#user"></use>
+            </svg>
+            <svg class="error-icon" width="24" height="24">
+              <use href="./images/icons.svg#error"></use>
             </svg>
             </div>
             </div>
@@ -680,9 +683,12 @@
             <div class="modal-form-field">
           <label class="modal-lable" for="user_email">Email</label>
           <div class="modal-input-icon">
-            <input class="modal-input" type="email" id="user_email" name="user_email">
+            <input class="modal-input" type="email" id="user_email" name="user_email" required >
             <svg class="modal-icon" width="24" height="24">
-              <use href="./images/icons.svg#email"></use>
+              <use href="./images/icons.svg#email"></use> 
+            </svg>
+            <svg class="error-icon" width="24" height="24">
+              <use href="./images/icons.svg#error"></use>
             </svg>
             </div>
             </div>
@@ -693,13 +699,13 @@
             <input class="modal-input" type="tel" id="user_number" name="user_number">
             <svg class="modal-icon" width="24" height="24">
               <use href="./images/icons.svg#phone"></use>
-            </svg>
+            </svg>  
             </div>
             </div>
 
             <div class="modal-form-field">
           <label class="modal-lable" for="user_comment">Comment</label>
-             <textarea class="modal-comment" id="user-comment" name="user_comment" placeholder="Enter text"></textarea>
+             <textarea class="modal-comment" id="user-comment" name="user_comment" placeholder="Enter text" required minlength="15"></textarea>
             </div>
 
             <div class="modal-form-box">

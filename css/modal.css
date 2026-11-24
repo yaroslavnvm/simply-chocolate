@@ -190,4 +190,28 @@ pointer-events: none;
     color: #fd9222;
 }
 
+.modal-input:user-invalid,
+.modal-comment:user-invalid {
+    border-color: red;
+}
+
+.modal-input:user-invalid + .modal-icon {
+    color: red;
+}
+
+.error-icon {
+    position: absolute;
+    right: 24px;
+    transform: translateY(-50%);
+    top: 50%;
+    opacity: 0;
+    transition: 300ms ease-out;
+    transition-property: opacity;
+   pointer-events: none;
+}
+
+.modal-input:user-invalid ~ .error-icon {
+    opacity: 1;
+}
+
 
